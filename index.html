@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive   Portfolio Website | CodingNepal</title>
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fontawesome link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header & Navbar -->
+    <header class="bg-dark fixed-top">
+      <nav class="container-xxl navbar navbar-expand-lg py-3 bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3" href="#">MALEMI Emmanuel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#skills">HCI</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero or Showcase Section -->
+    <section class="hero d-flex flex-column align-items-center justify-content-center">
+      <div class="text-center">
+        <h1 class="h1 text-white fw-medium fst-italic">MALEMI Emmanuel</h1>
+        <h2 class="display-3 text-white fw-bold">HUMAN COMPUTER INTERACTION <br /> (HCI)</h2>
+        <a href="#skills" class="btn btn-lg fs-6 fw-medium mt-5 btn-primary p-3">START READING</a>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="container py-5" id="skills">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2>IMPORTANCE OF HCI</h2>
+          <h5 class="text-secondary fw-normal py-2 fst-italic">HCI is important in many ways here are a few<fieldset disabled="disabled"></fieldset></h5>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-between mx-0">
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-cart-shopping"></i>
+          <h3 class="mt-4 h4">HCI in daily lives</h3>
+          <p class="text-center">Today, technology has penetrated our routine lives and has impacted our daily activities. To experience HCI technology, one need not own or use a smartphone or computer. When people use an ATM, food dispensing machine, or snack vending machine, they inevitably come in contact with HCI. This is because HCI plays a vital role in designing the interfaces of such systems that make them usable and efficient.</p>
+        </div>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-laptop"></i>
+          <h3 class="mt-4 h4">Industry</h3>
+          <p class="text-center">HCI is critical for designing safety systems such as those used in air traffic control (ATC) or power plants. The aim of HCI, in such cases, is to make sure that the system is accessible to any non-expert individual who can handle safety-critical situations if the need arises.</p>
+        </div>
+        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
+          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-mobile-screen-button"></i>
+          <h3 class="mt-4 h4">An integral part of software success</h3>
+          <p class="text-center">HCI is an integral part of software development companies that develop software for end-users. Such companies use HCI techniques to develop software products to make them usable. Since the product is finally consumed by the end-user, following HCI methods is crucial as the product’s sales depend on its usability.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+     <!-- Contact Section -->
+     <section class="py-5" id="contact">
+      <div class="container-xxl py-5">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2 class="text-white">CONTACT ME</h2>Contact me to learn more</h5>
+        </div>
+        <div class="row pt-4 mt-5">
+          <div class="col-12">
+            <form action="#" method="POST">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name*" required>
+                    <label for="floatingInput">Enter Name*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="Enter Email*" required>
+                    <label for="floatingEmail">Enter Email*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingPassword" placeholder="Enter Phone*" required>
+                    <label for="floatingPassword">Enter Phone*</label>
+                  </div>
+                </div>
+                <div class="form-floating col-lg-6">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingMessage" style="height: 205px" required></textarea>
+                  <label for="floatingMessage" class="px-4">Enter Message*</label>
+                </div>
+                <div class="col-12 mt-5 d-flex justify-content-center">
+                  <button class="btn btn-lg btn-outline-light">SEND MESSAGE</button>
+                </div>
+              </div>
+  
+            </form>
+          </div>
+        </div>
+       </div>
+     </section>
+
+     <!-- Footer -->
+     <footer>
+      <div class="container-xxl flex-wrap pt-3 d-flex align-items-center justify-content-between">
+        <p>Copyright © 2024 Malemi Emmanuel</p>
+        <ul class="social-icons d-flex">
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-twitter"></i></small></a>
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-facebook-f"></i></small></a>
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-linkedin-in"></i></small></a>
+        </ul>
+      </div>
+     </footer>
+    
+     <!-- Bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
